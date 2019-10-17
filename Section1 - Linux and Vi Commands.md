@@ -15,7 +15,12 @@ The following are some common cd commands:
     * If you are already in a directory and want to travel into a subdirectory, you would not have to provide the full path to that directory. Instead, you can provide the relative path
         * If there was a subdirectory called Projects in the Documents directory you were already in, you would only need to type 'cd Projects' to change into that directory.
 
-* The **cd ~** or **cd** commands take you to your home directory, no matter what your current working directory is.
+* The cd ~ and **cd** commands take you to your home directory, no matter what your current working directory is.
 
 * **cd ..** changes you into the parent directory--that is the directoy one level up from the directory you are in.
     * From the previous example, if your current working directory is Projects, then typing **cd ..** would take you back to the Documents directory.
+
+## **2. pwd [print working directory]**
+
+pwd is the "print working directory" command, used for display the current directory the user is in. It is a useful command when unsure of the directory you are in or to view the full path of your directory. To use it, simply type pwd on the command line and it will display the full path of your current directory.
+
