@@ -53,4 +53,14 @@ The following are some common cd commands:
 * Copying two or more files
    * `cp file1 file2 file3 directory` - copies **file1, file2, and file3** into **directory**.
       * If *directory* does not exist, it will create one. But if it does exist, it will overwrite it.
+      
+ ### **5. mv [move files]**
+ 
+`mv` is the move command, used to move a file or directory to a different location. Unlike `cp`, which copies a file/directory onto a different location and leaves the original file where it is, `mv` moves the original to a different location and deletes it from where it previously was. 
+
+To syntax to use the `mv` command is: `mv [option] source destination`. where **source** is the file you want to copy and **destination** is where you want to copy it to.
+* Note: You can also use `mv` to rename files. The syntax for that is: `mv fileyouwanttorename newname`
+* [options] can be found by typing `man mv` on the command line.
+
+
    
