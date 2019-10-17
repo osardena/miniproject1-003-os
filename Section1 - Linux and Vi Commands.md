@@ -24,3 +24,9 @@ The following are some common cd commands:
 
 pwd is the "print working directory" command, used for display the current directory the user is in. It is a useful command when unsure of the directory you are in or to view the full path of your directory. To use it, simply type pwd on the command line and it will display the full path of your current directory.
 
+## **3. mkdir [make directoy]**
+
+mkdir is the "make directory" command, used for making a new directory. To use it, type mkdir, a space, and the name of the new directory you wish to create: **mkdir nameofnewdirectory**. Again, it is important to add a space between the command and the argument passed to it. 
+* Note: **mkdir nameofnewdirectory** will create that new directory inside of your current working directory.
+   * If you wish to create a directory outside of your current working directory, you can type mkdir, followed by a space, and then the full path of the new directory. 
+       * For example, if one wanted to create a new directory named 'Homework' inside the Documents directory, one would type: **mkdir /home/student/Documents/Homework**
