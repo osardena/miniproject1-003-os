@@ -1,8 +1,8 @@
 # **Basic Linux and Vi Commands Needed to Manage a File System**
 
-First, let's go over 11 basic Linux commands to manage a file system.
+## First, let's go over 11 basic Linux commands to manage a file system.
 
-## **1. cd [change directory]** 
+### **1. cd [change directory]** 
 
 cd is the "change directory" command, used for changing the current working directory that you are in. A directory is essentially like a folder, which may contain files and other directories. Your current working directory is the "folder" in which you are currently in.
 
@@ -20,11 +20,11 @@ The following are some common cd commands:
 * **cd ..** changes you into the parent directory--that is the directoy one level up from the directory you are in.
     * From the previous example, if your current working directory is Projects, then typing **cd ..** would take you back to the Documents directory.
 
-## **2. pwd [print working directory]**
+### **2. pwd [print working directory]**
 
 pwd is the "print working directory" command, used for display the current directory the user is in. It is a useful command when unsure of the directory you are in or to view the full path of your directory. To use it, simply type pwd on the command line and it will display the full path of your current directory.
 
-## **3. mkdir [make directoy]**
+### **3. mkdir [make directoy]**
 
 mkdir is the "make directory" command, used for making a new directory. To use it, type mkdir, a space, and the name of the new directory you wish to create: **mkdir nameofnewdirectory**. Again, it is important to add a space between the command and the argument passed to it. 
 * Note: **mkdir nameofnewdirectory** will create that new directory inside of your current working directory.
