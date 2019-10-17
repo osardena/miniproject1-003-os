@@ -1,6 +1,6 @@
 # **Basic Linux and Vi Commands Needed to Manage a File System**
 
-## First, let's go over 11 basic Linux commands to manage a file system.
+## 7 Basic Linux Commands to Manage a File System.
 
 ### **1. cd [change directory]** 
 
@@ -77,4 +77,8 @@ To syntax to use the `mv` command is: `mv [option] source destination`. where **
 *More syntax options can be found by typing `man rm` on the command line*
 
 
-   
+### 7. history
+
+The `history` command is used to display the last 500 commands invoked in your account. To use it, simply type `history` on your command line.
+* You can invoke any of the commands shown in the history by typing the ‘!’ followed by the command number
+* The command `history –c` clears the history buffer
