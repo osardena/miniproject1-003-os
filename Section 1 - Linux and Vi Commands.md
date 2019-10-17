@@ -14,9 +14,7 @@ The following are some common cd commands:
     * For example: `cd /home/student/Documents/` would take you to the Documents directory inside the student directory
     * If you are already in a directory and want to travel into a subdirectory, you would not have to provide the full path to that directory. Instead, you can provide the relative path
         * If there was a subdirectory called Projects in the Documents directory you were already in, you would only need to type 'cd Projects' to change into that directory.
-
 * The `cd ~` and `cd` commands take you to your home directory, no matter what your current working directory is.
-
 * `cd ..` changes you into the parent directory--that is the directoy one level up from the directory you are in.
     * From the previous example, if your current working directory is Projects, then typing `cd ..` would take you back to the Documents directory.
 
@@ -41,15 +39,12 @@ The following are some common cd commands:
       * **-n** - Do not overwrite an existing file
       * **-i** - Causes cp to write a prompt to the standard error output before copying a file that would overwrite an existing file.
      * **-p** - Preserves the modification time, access time, file flags, file mode, user ID, and group ID, as allowed by permissions, in the copy.
-
 * Using cp with two files
    * `cp file1 file2` - copies the contents of **file1** to the **file2**. 
       * If **file2** doesn't exist, then it will create a file with that name. However, if that file exists, it will overwrite the contents of that file.
-      
 * Using cp with two directories
    * `cp -R dir1 dir2` - copies the contents and subdirectories in **dir1** onto **dir2**. 
-      * It is necessary to use the -R option (causes cp to be recursive and copy any and all subdirectories)
-      
+      * It is necessary to use the -R option (causes cp to be recursive and copy any and all subdirectories)   
 * Copying two or more files
    * `cp file1 file2 file3 directory` - copies **file1, file2, and file3** into **directory**.
       * If *directory* does not exist, it will create one. But if it does exist, it will overwrite it.
@@ -61,6 +56,17 @@ The following are some common cd commands:
 To syntax to use the `mv` command is: `mv [option] source destination`. where **source** is the file you want to copy and **destination** is where you want to copy it to.
 * Note: You can also use `mv` to rename files. The syntax for that is: `mv fileyouwanttorename newname`
 * [options] can be found by typing `man mv` on the command line.
+
+### **6. rm [remove]**
+
+`rm` is the remove command, used to remove directories entries. Be careful when using this command because once you remove files, you cannot recover them.
+* Syntax:
+   * To delete a file: `rm filename` where **filename** is the name of the file you want to delete
+   * To delete multiple files: `rm file1 file2 file3 file4`
+   * To delete **empty** directories: `rm -d directoryname` or `rmdir directoryname`
+      * Emphasis on empty!
+   * To delete **all** the files and sub-directories in a directory: `rm -r directoryname`
+*More syntax options can be found by typing `man rm` on the command line*
 
 
    
