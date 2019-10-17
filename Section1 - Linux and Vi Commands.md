@@ -30,3 +30,27 @@ mkdir is the "make directory" command, used for making a new directory. To use i
 * Note: **mkdir nameofnewdirectory** will create that new directory inside of your current working directory.
    * If you wish to create a directory outside of your current working directory, you can type mkdir, followed by a space, and then the full path of the new directory. 
        * For example, if one wanted to create a new directory named 'Homework' inside the Documents directory, one would type: **mkdir /home/student/Documents/Homework**
+
+### **4. cp [copy]**
+
+cp is the "copy" command, used for making copies of the content of files and directories. It creates an exact copy of the contents in the files/directories. The syntax for the cp command is: **cp [option] source destination** where **source** is the file you want to copy and **destination** is where you want to copy it to. Copies the files with the same name!
+* Note: source and destination can be directories or files
+* There are many options that can be used along with the cp command. To read about them all, you can type **man cp** on your command line. 
+   * Some common ones are:
+      * **-v** - Be verbose. Shows the files are they are being copied
+      * **-n** - Do not overwrite an existing file
+      * **-i** - Causes cp to write a prompt to the standard error output before copying a file that would overwrite an existing file.
+     * **-p** - Preserves the modification time, access time, file flags, file mode, user ID, and group ID, as allowed by permissions, in the copy.
+
+* Using cp with two files
+   * **cp file1 file2** - copies the contents of **file1** to the **file2**. 
+      * If **file2** doesn't exist, then it will create a file with that name. However, if that file exists, it will overwrite the contents of that file.
+      
+* Using cp with two directories
+   * **cp -R dir1 dir2** - copies the contents and subdirectories in **dir1** onto **dir2**. 
+      * It is necessary to use the -R option (causes cp to be recursive and copy any and all subdirectories)
+      
+* Copying two or more files
+   * **cp file1 file2 file3 directory** - copies **file1, file2, and file3** into **directory**.
+      * If *directory* does not exist, it will create one. But if it does exist, it will overwrite it.
+   
