@@ -55,6 +55,14 @@ The following are some common cd commands:
 
 To syntax to use the `mv` command is: `mv [option] source destination`. where **source** is the file you want to copy and **destination** is where you want to copy it to.
 * Note: You can also use `mv` to rename files. The syntax for that is: `mv fileyouwanttorename newname`
+   * Example:
+      ```
+         $ls
+         file1    file2    file3
+         $mv file1 newNameForFile1
+         $ls
+         file2 file3 newNameForFile1
+      ```
 * [options] can be found by typing `man mv` on the command line.
 
 ### **6. rm [remove]**
