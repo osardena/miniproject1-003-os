@@ -82,3 +82,11 @@ To syntax to use the `mv` command is: `mv [option] source destination`. where **
 The `history` command is used to display the last 500 commands invoked in your account. To use it, simply type `history` on your command line.
 * You can invoke any of the commands shown in the history by typing the ‘!’ followed by the command number
 * The command `history –c` clears the history buffer
+
+
+## Vi and Usage
+
+Vi is a text editor that can be used to edit plain texts and programs.
+
+### Creating and/or editing a file using Vi
+To create or edit a file using Vi, simply type ```vi filename``` where **filename** is the name of the file you want to create or edit. If a file with that name does not exist, vi will create one in your current working directory. If a file with that name does exist, vi will allow you to edit that.
