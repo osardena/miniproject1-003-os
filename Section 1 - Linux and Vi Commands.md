@@ -115,7 +115,15 @@ This is used to avoid repeating common commands. Also, if you made a mistake whe
 
 ## Vi and Usage
 
-Vi is a text editor that can be used to edit plain texts and programs.
+Vi is a text editor that can be used to edit plain texts and programs. Vi runs in three modes:
+
+**1. Command Mode** - This mode accepts commands, which are usually single letters. For instance, *i* enters into insert mode and *o* opens a line below the current one.
+
+**2. Execute Mode** - This mode manipulate files, like saving files and running outside programs. You enter execute mode by typing a colon (**:**), and followed by the command you want to use.  For example, *w* saves the file and *q* quits Vi and returns to the terminal.
+
+**3. Insert Mode** - This mode is used to enter or edit text. You enter insert mode by typing *i* or *a*.
+* *i* - When entering insert mode with the *i* command, whatever you type will appear to the left of the character the cursor was over.
+* *a* - When entering insert mode with the *a* command, whatever you type will appeart to the right of the word that the cursor is over.
 
 ### Creating and/or editing a file using Vi
 To create or edit a file using Vi, simply type ```vi filename``` where **filename** is the name of the file you want to create or edit. If a file with that name does not exist, vi will create one in your current working directory. If a file with that name does exist, vi will allow you to edit that.
