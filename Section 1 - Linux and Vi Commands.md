@@ -91,6 +91,14 @@ When you log into a Linux system, you are automatically placed in the home direc
 
 There is a shortcut to immediately go back to your home directory--no matter where your current working directory is: simply type ```cd``` or ```cd ~```. 
 
+## File Paths in Linux
+
+A file path tells you the location of where a file or folder is on your computer. When a file is inside a folder or a folder is inside another folder, a forward slash (**/**) is used to show this hierarchy. For example, if a file named **index.html** is in a folder called **IS117** which is in your **Documents** folder, then the file path for that file would be **/home/user/Documents/IS117/index.html**. The forward slashes symbolize that one item is stored inside of the item before it.
+
+To quickly see the file path of where you currently are in your system, type ```pwd``` and it will give you the full path to your position.
+
+File paths can be used to change directories; by typing ```cd``` followed by a space and then the filepath. 
+
 ## Vi and Usage
 
 Vi is a text editor that can be used to edit plain texts and programs.
