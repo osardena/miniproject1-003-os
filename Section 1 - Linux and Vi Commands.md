@@ -85,6 +85,12 @@ The `history` command is used to display the last 500 commands invoked in your a
 
 ## Basic Linux Concepts
 
+## Home directory and ~
+
+When you log into a Linux system, you are automatically placed in the home directory. A home directory is a private place for the user to store their files. ```~``` is the short form for your home directory. It can be used to substitute ```/home/username``` in filepaths.  
+
+There is a shortcut to immediately go back to your home directory--no matter where your current working directory is: simply type ```cd``` or ```cd ~```. 
+
 ## Vi and Usage
 
 Vi is a text editor that can be used to edit plain texts and programs.
