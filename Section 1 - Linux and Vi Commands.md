@@ -85,19 +85,27 @@ The `history` command is used to display the last 500 commands invoked in your a
 
 ## Basic Linux Concepts
 
-## Home directory and ~
+### Home directory and ~
 
 When you log into a Linux system, you are automatically placed in the home directory. A home directory is a private place for the user to store their files. ```~``` is the short form for your home directory. It can be used to substitute ```/home/username``` in filepaths.  
 
 There is a shortcut to immediately go back to your home directory--no matter where your current working directory is: simply type ```cd``` or ```cd ~```. 
 
-## File Paths in Linux
+### File Paths in Linux
 
 A file path tells you the location of where a file or folder is on your computer. When a file is inside a folder or a folder is inside another folder, a forward slash (**/**) is used to show this hierarchy. For example, if a file named **index.html** is in a folder called **IS117** which is in your **Documents** folder, then the file path for that file would be **/home/user/Documents/IS117/index.html**. The forward slashes symbolize that one item is stored inside of the item before it.
 
 To quickly see the file path of where you currently are in your system, type ```pwd``` and it will give you the full path to your position.
 
 File paths can be used to change directories; by typing ```cd``` followed by a space and then the filepath. 
+
+### Using the tab key to complete file paths
+
+Provided that you correctly type and are using a command, if you begin to type the filepath of the file/directory you intend to use then Linux will autocomplete the rest of the path for you when using the tab key.
+
+For example, using the previous example, if you were to type ```cd Documents/IS``` and then pressed the tab key, it would auto complete it to ```cd Documents/IS117/```. If you were to press the tab key again without typing anything, then Linux would try to guess the file you were trying to change into. If the only file inside that folder was index.html, then it would be autocompleted into ```cd Documents/IS117/index.html```. 
+
+This method is often used to save time or to ensure the correct spelling of complicatedly-named files. 
 
 ## Vi and Usage
 
