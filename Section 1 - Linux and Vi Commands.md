@@ -83,6 +83,7 @@ The `history` command is used to display the last 500 commands invoked in your a
 * You can invoke any of the commands shown in the history by typing the ‘!’ followed by the command number
 * The command `history –c` clears the history buffer
 
+## Basic Linux Concepts
 
 ## Vi and Usage
 
