@@ -107,6 +107,12 @@ For example, using the previous example, if you were to type ```cd Documents/IS`
 
 This method is often used to save time or to ensure the correct spelling of complicatedly-named files. 
 
+### Using up and down arrow for history
+
+A final shorcut many people use on Linux systems is using the up and down arrows in the keyboard for history. Hitting the up arrow in a terminal will show you the previous entered command in the terminal. If you continue to press the up arrows, it will show you the previous entered command before that, and so on. 
+
+This is used to avoid repeating common commands. Also, if you made a mistake when typing a command and wanted to fix it without having to retype everything, then just hit the up arrow until you find the command and then fix the typo. 
+
 ## Vi and Usage
 
 Vi is a text editor that can be used to edit plain texts and programs.
