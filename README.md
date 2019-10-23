@@ -12,12 +12,16 @@ Mini Project that explains to explain how the usage of Git, Docker, automated te
 
 ## Changelog
 Omar Sardena - Created the repository and Readme file
+
 Michelle Nunez - Made Section 1
+
 Michelle Nunez - Updated the Readme file to include the Group Members names, Index for Pages, Changelog, and Links to Tutorials sections.
 
 ## Links to Tutorials
 [Intro to Github Tutorial](https://guides.github.com/activities/hello-world/ "Intro to Github")
+
 [Intro to Linux](https://training.linuxfoundation.org/training/introduction-to-linux/ "Intro to Linux")
+
 [Learn Git Branching](https://learngitbranching.js.org "Learn Git Branching")
 
 
