@@ -15,3 +15,5 @@ Git Terminology
 * Clone - is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy. With your clone you can edit the files in your preferred editor and use Git to keep track of your changes without having to be online.
 
 * Fork - is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. 
+
+* Branch - is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the live version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
