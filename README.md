@@ -18,6 +18,9 @@ Michelle Nunez - Made Section 1
 
 Michelle Nunez - Updated the Readme file to include the Group Members names, Index for Pages, Changelog, and Links to Tutorials sections.
 
+Omar Sardena - Updated the Readme file and added Section 2 Index for Pages, new Changelog info, and a Link to a Tutorial.
+
+Omar Sardena - Made Section 2
 
 ## Links to Tutorials
 [Intro to Github Tutorial](https://guides.github.com/activities/hello-world/ "Intro to Github")
