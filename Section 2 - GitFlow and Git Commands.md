@@ -7,6 +7,9 @@ Gitflow Workflow defines a strict branching model designed around the project re
 
 Gitflow is ideally suited for projects that have a scheduled release cycle. This workflow doesn’t add any new concepts or commands beyond what’s required for the Feature Branch Workflow. Instead, it assigns very specific roles to different branches and defines how and when they should interact. In addition to feature branches, it uses individual branches for preparing, maintaining, and recording releases.
 
+![alt text](https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2019/02/12/gitflow-Page-1-3.png "GitFlow Chart")
+
+
 
 
 Git Terminology
