@@ -1,7 +1,6 @@
 # Section 2 GitFlow and Git Commands
 
-GitFlow
-========
+## GitFlow
 
 Gitflow Workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects.  
 
@@ -12,8 +11,7 @@ Gitflow is ideally suited for projects that have a scheduled release cycle. This
 
 
 
-Git Terminology
-============
+## Git Terminology
 
 * Repository -  contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
@@ -41,8 +39,8 @@ Git Terminology
 
 
 
-_A list of Git commands_
-========================
+## _A list of Git commands_
+
 ### Getting & Creating Repositories
 
 | Command | Description |
