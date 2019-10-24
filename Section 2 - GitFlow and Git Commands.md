@@ -21,3 +21,5 @@ Git Terminology
 * Commit - is a record of what files you have changed since the last time you made a commit. Essentially, you make changes to your repo (for example, adding a file or modifying one) and then tell git to put those files into a commit.
 
 * Merge - takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a pull request (which can be thought of as a request to merge), or via the command line.
+
+* Checkout - is the act of switching between different versions of a target entity.
