@@ -7,9 +7,9 @@ Mini Project that explains to explain how the usage of Git, Docker, automated te
 3. Giuseppe LoGrande
 
 ## Index for Pages
-[Section 1 - Linux and Vi Commands](https://github.com/mpn6/miniproject1-003-os/blob/Section1-Michelle/Section%201%20-%20Linux%20and%20Vi%20Commands.md "Linux and Vi Commands")
+[Section 1 - Linux and Vi Commands](https://github.com/osardena/miniproject1-003-os/blob/master/Section%201%20-%20Linux%20and%20Vi%20Commands.md "Linux and Vi Commands")
 
-[Section 2 - GitFlow and Git Commands](https://github.com/osardena/miniproject1-003-os/blob/Section2-Omar/Section%202%20-%20GitFlow%20and%20Git%20Commands.md "GitFlow and Git Commands")
+[Section 2 - GitFlow and Git Commands](https://github.com/osardena/miniproject1-003-os/blob/master/Section%202%20-%20GitFlow%20and%20Git%20Commands.md "GitFlow and Git Commands")
 
 ## Changelog
 Omar Sardena - Created the repository and Readme file
