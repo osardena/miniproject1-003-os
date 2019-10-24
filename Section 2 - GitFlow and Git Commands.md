@@ -13,3 +13,5 @@ Git Terminology
 * Repository -  contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
 * Clone - is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy. With your clone you can edit the files in your preferred editor and use Git to keep track of your changes without having to be online.
+
+* Fork - is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. 
