@@ -7,6 +7,8 @@ Gitflow Workflow defines a strict branching model designed around the project re
 
 Gitflow is ideally suited for projects that have a scheduled release cycle. This workflow doesn’t add any new concepts or commands beyond what’s required for the Feature Branch Workflow. Instead, it assigns very specific roles to different branches and defines how and when they should interact. In addition to feature branches, it uses individual branches for preparing, maintaining, and recording releases.
 
+
+
 Git Terminology
 ============
 
@@ -33,3 +35,8 @@ Git Terminology
 * Status - these checks are external processes, which run for each commit you make in a repository.
 
 * Master Branch -  is a default branch, as you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
+
+
+
+_A list of Git commands_
+========================
