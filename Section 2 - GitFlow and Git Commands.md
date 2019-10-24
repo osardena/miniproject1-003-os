@@ -31,3 +31,5 @@ Git Terminology
 * Remote - this is the version of something that is hosted on a server, most likely GitHub. It can be connected to local clones so that changes can be synced.
 
 * Status - these checks are external processes, which run for each commit you make in a repository.
+
+* Master Branch -  is a default branch, as you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
