@@ -30,3 +30,4 @@ Git Terminology
 
 * Remote - this is the version of something that is hosted on a server, most likely GitHub. It can be connected to local clones so that changes can be synced.
 
+* Status - these checks are external processes, which run for each commit you make in a repository.
