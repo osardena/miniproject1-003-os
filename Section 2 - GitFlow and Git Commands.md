@@ -23,3 +23,6 @@ Git Terminology
 * Merge - takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a pull request (which can be thought of as a request to merge), or via the command line.
 
 * Checkout - is the act of switching between different versions of a target entity.
+
+* Push - refers to sending your committed changes to a remote repository, such as a repository hosted on GitHub. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
+
