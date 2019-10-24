@@ -18,9 +18,14 @@ The following are some common cd commands:
 * `cd ..` changes you into the parent directory--that is the directoy one level up from the directory you are in.
     * From the previous example, if your current working directory is Projects, then typing `cd ..` would take you back to the Documents directory.
 
+<p align="center">
+<img src="https://www.guru99.com/images/sub-directory(1).png">
+</p>
+
 ### **2. pwd [print working directory]**
 
 `pwd` is the "print working directory" command, used for display the current directory the user is in. It is a useful command when unsure of the directory you are in or to view the full path of your directory. To use it, simply type `pwd` on the command line and it will display the full path of your current directory.
+* To see all the files inside your working directory, you can use the ```ls``` command or the ```ls -l``` command. The ```ls``` command is the list command and shows you a list of all the files in the working directory. The ```ls -l``` command is the long list command, showing you the same information as ```ls``` but formatted differently.
 
 ### **3. mkdir [make directoy]**
 
@@ -98,6 +103,12 @@ A file path tells you the location of where a file or folder is on your computer
 To quickly see the file path of where you currently are in your system, type ```pwd``` and it will give you the full path to your position.
 
 File paths can be used to change directories; by typing ```cd``` followed by a space and then the filepath. 
+
+Example of a file system hierarchy: 
+
+<p align="center">
+<img src="https://www.ocf.berkeley.edu/~shidi/cs61a/w/images/0/00/Filesystem_tree.png">
+</p>
 
 ### Using the tab key to complete file paths
 

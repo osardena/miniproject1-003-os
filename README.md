@@ -12,15 +12,14 @@ Mini Project that explains to explain how the usage of Git, Docker, automated te
 [Section 2 - GitFlow and Git Commands](https://github.com/osardena/miniproject1-003-os/blob/master/Section%202%20-%20GitFlow%20and%20Git%20Commands.md "GitFlow and Git Commands")
 
 ## Changelog
-Omar Sardena - Created the repository and Readme file
 
-Michelle Nunez - Made Section 1
-
-Michelle Nunez - Updated the Readme file to include the Group Members names, Index for Pages, Changelog, and Links to Tutorials sections.
-
-Omar Sardena - Updated the Readme file and added Section 2 Index for Pages, new Changelog info, and a Link to a Tutorial.
-
-Omar Sardena - Made Section 2
+- [x] Create the repository and Readme file (Omar Sardena)
+- [x] Section 1 of Project (Michelle Nunez)
+- [x] Update the Readme file to include the Group Members names, Index for Pages, Changelog, and Links to Tutorials sections
+      (Michelle Nunez)
+- [x] Updated the Readme file (Omar Sardena)
+- [x] Added Section 2 Index for Pages, new Changelog info, and a Link to a Tutorial (Omar Sardena)
+- [x] Section 2 of the Project (Omar Sardena)
 
 ## Links to Tutorials
 [Intro to Github Tutorial](https://guides.github.com/activities/hello-world/ "Intro to Github")
